@@ -1,0 +1,55 @@
+header {
+	max-width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/header.jpg");
+	height: 300px;
+}
+
+header h1,
+header h2 {
+	color: #000;
+	padding-right: 10px;
+	padding-top: 15px;
+	text-align: right;
+}
+
+header h2 {
+	padding-right: 80px
+}
+
+.objectives {
+	list-style-image: url('../images/tick.gif')
+}
+
+.gameContainer {
+	display: flex;
+	justify-content: space-evenly;
+	height: 240px;
+	max-width: 960px;
+	text-align: center;
+	background: linear-gradient(to bottom, #f0dac3, #68421a);
+}
+
+#totalAttempts {
+	margin: 0;
+}
+
+article {
+	width: 250px;
+}
+
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	background: #333;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: -16px;
+}
