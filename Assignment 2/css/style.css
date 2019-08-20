@@ -1,0 +1,30 @@
+header {
+	max-width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/header.jpg");
+	height: 274px;
+}
+
+header h1,
+header h2 {
+	color: #fff;
+	padding-left: 10px;
+}
+
+.objectives {
+	list-style-image: url('../images/tick.gif')
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	background: #333;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	max-width: 960px;
+	margin: 0 auto;
+}
