@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>05 Arborist</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="company"></h1>
+      <h2 id="slogan"></h2>
+    </header>
+    <main>
+      <article id="checklist">
+        <h1></h1>
+        <h2>What I learned</h2>
+        <ul class="objectives">
+          <li>Implement error checking on incoming values.</li>
+          <li>Create and manipulate values in an array.</li>
+          <li>Implement Event Handlers.</li>
+          <li>Implement Event Listeners.</li>
+        </ul>
+      </article>
+      <article>
+        <div id="leftColumn">
+          <h2>Add a Tree</h2>
+          <button id="add_redwood">Add a Redwood Tree to the End</button>
+          <button id="add_pear">Add a pear to the Start</button>
+
+          <h2>Remove a Tree</h2>
+          <button id="remove_tree1">Remove the first tree</button>
+          <button id="remove_tree2">Remove the second tree</button>
+          <button id="remove_treeLast">Remove the last tree</button>
+        </div>
+        <div>
+          <h2>Manipulate the Tree List</h2>
+          <button id="sortTrees">Sort the trees A>Z</button>
+          <button id="lowerTrees">Make all trees lowercase</button>
+
+          <h2>Get a tree from the list</h2>
+          <button id="showName3">What is the name of tree number 3</button>
+          <button id="showName4">What is the name of tree number 4</button>
+        </div>
+      </article>
+
+      <aside>
+        <h2>The Tree list</h2>
+        <div id="displayResults"></div>
+        <h2>Error Messages</h2>
+        <div id="error"></div>
+      </aside>
+    </main>
+    <footer>
+      <p>Assignment for DGM2760 by Justin Green</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../images/header.jpg");
+  background-position-y: -20px;
+  height: 280px;
+}
+
+header h1 {
+  color: #fff;
+  padding: 1rem 0 0 2%;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 3rem;
+}
+header h2 {
+  color: #fff;
+  padding: 0.5rem 0 0 2%;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 2rem;
+}
+
+.objectives {
+  list-style-image: url("../images/tick.gif");
+  margin-left: 3%;
+}
+
+main h1 {
+  color: #554509;
+  padding: 1rem 0 0 2%;
+}
+
+main h2 {
+  color: #4f7738;
+  padding: 0.6rem 0 0 2%;
+}
+
+main button {
+  display: block;
+  background: #eadadb;
+  border: solid 1px #837778;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 90%;
+}
+
+main button:hover {
+  background: #837778;
+  color: #fff;
+  cursor: pointer;
+}
+
+main article {
+  float: left;
+  width: 60%;
+}
+
+main article#checklist {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  width: 50%;
+}
+
+main article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main article div {
+  width: 320px;
+}
+
+main aside {
+  float: left;
+  width: 40%;
+}
+
+main div#displayResults {
+  background: #d5cab5;
+  margin-left: 2%;
+  padding: 0.2rem 4%;
+  line-height: 150%;
+}
+
+main div#displayResults span {
+  color: red;
+}
+
+main div#error {
+  color: orange;
+  margin-left: 2%;
+  background: yellow;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  background: #837778;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
