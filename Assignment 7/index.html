@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>07 Pizza Emporium</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1 id="company"></h1>
+		<h2 id="slogan"></h2>
+	</header>
+	<main>
+		<div id="checklist">
+			<h1>Pizza Order Form</h1>
+			<h2>What I learned</h2>
+			<ul class="objectives">
+				<li>Create an object literal with properties and methods.</li>
+				<li>Set the properties in an object.</li>
+				<li>Access the properties in an object.</li>
+				<li>Access the methods in an object.</li>
+				<li>Use math operators.</li>
+				<li>Use template literals.</li>
+				<li>Use querySelector and textContent to dynamically change text on the screen.</li>
+			</ul>
+		</div>
+		<div class="inputContainer">
+			<div>
+				<article>
+					<h2>Crust Options</h2>
+					<input type="radio" id="thin" name="crust" value="thin" checked>
+					<label for="thin">Thin</label>
+					<input type="radio" id="thick" name="crust" value="thick">
+					<label for="thick">Thick</label>
+				</article>
+				<article>
+					<h2>Topping Options</h2>
+					<input type="radio" id="sausage" name="topping" value="sausage">
+					<label for="sausage">Sausage</label>
+					<input type="radio" id="pepperoni" name="topping" value="pepperoni" checked>
+					<label for="pepperoni">Pepperoni</label>
+				</article>
+				<article>
+					<h2>Size Options</h2>
+					<input type="radio" id="small" name="size" value="small" checked>
+					<label for="small">Small</label>
+					<input type="radio" id="large" name="size" value="large">
+					<label for="large">Large</label>
+				</article>
+			</div>
+			<div>
+				<article>
+					<h2>Time to Eat</h2>
+					<button id="buildPizza">Build Pizza</button>
+				</article>
+				<article>
+					<h2>Shopping List</h2>
+					<button id="shoppingList">Shopping List</button>
+				</article>
+			</div>
+			<div>
+				<article>
+					<h2>Messages back to the user</h2>
+					<p id="feedback"></p>
+				</article>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Assignment for DGM2760 by Justin Green</p>
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
