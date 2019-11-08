@@ -1,0 +1,31 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "address": "258 Broad Street",
+            "rooms": "50",
+            "gym": "Yes",
+            "types": ["King", "Queen", "Double"],
+            "image": "/images/room1.jpg"
+
+        },
+        {
+            "name": "Sheraton",
+            "address": "123 Any Street",
+            "rooms": "20",
+            "gym": "No",
+            "types": ["King", "Double", "Single"],
+            "image": "/images/room2.jpg"
+
+        },
+        {
+            "name": "Hilton",
+            "address": "942 Quick Street",
+            "rooms": "200",
+            "gym": "Yes",
+            "types": ["King", "Queen", "Single"],
+            "image": "/images/room3.jpg"
+
+        }
+    ]
+}

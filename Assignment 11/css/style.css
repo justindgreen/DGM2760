@@ -1,0 +1,92 @@
+header {
+	max-width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/header.jpg");
+	height: 274px;
+}
+
+header h1,
+header h2 {
+	color: #fff;
+	text-shadow: #000 2px 1px;
+	padding-left: 10px;
+}
+
+.objectives {
+	list-style-image: url('../images/tick.gif')
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.results div {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.results div h4 {
+	width: 23%;
+	margin: 0px;
+}
+
+.results div p {
+	margin-top: 0px;
+	background-color: lightgrey;
+	height: 50px;
+	width: 23%;
+	left: 2%;
+}
+
+footer {
+	text-align: center;
+	background: #333;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.btn {
+	margin: 5px;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: #91C9FF;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
