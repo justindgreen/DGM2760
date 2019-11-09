@@ -18,7 +18,7 @@ document.querySelectorAll('button').forEach(button => {button.addEventListener('
 
 function hotelInfo(event) {
 	let hotelChoice = hotelData.hotels.find(hotel => {
-		return event.target.id === hotel.name.toLowercase()
+		return event.target.id === hotel.name
 	})
 
 	document.querySelector('#hotelName').textContent = `${hotelChoice.name} Hotel`
