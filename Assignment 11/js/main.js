@@ -4,7 +4,7 @@ document.querySelector('#pageTitle').innerText = "Hotel Booking";
 
 async function getHotelData() {
 	try {
-		const response = await fetch('Assignment 11/hotel.json')
+		const response = await fetch('../assignment%2011/hotel.json')
 		return response.json()
 	} catch (error) {
 		console.error(error)
