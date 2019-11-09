@@ -44,6 +44,10 @@ main {
 	left: 2%;
 }
 
+#image {
+	margin:auto;
+}
+
 footer {
 	text-align: center;
 	background: #333;
