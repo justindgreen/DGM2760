@@ -45,7 +45,9 @@ main {
 }
 
 #image {
-	margin:auto;
+	left: 25%;
+   	width: 50%;
+    	position: relative;
 }
 
 footer {
