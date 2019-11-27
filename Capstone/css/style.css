@@ -42,7 +42,7 @@ header img {
     margin: -2px;
     padding: 0px;
     position:relative;
-    left: 8.7%;
+    left: 269px;
     width: 1032px;
     z-index: 1;
 }
@@ -78,7 +78,7 @@ main {
 #printButton {
     position: absolute;
     top: 148px;
-    left: 75%;
+    left: 1110px;
     z-index: 10;
     background: url(../images/printButton.png) no-repeat 0 0;
     height: 42px;
@@ -97,7 +97,7 @@ main {
 #clearButton {
     position: absolute;
     top: 148px;
-    left: 14%;
+    left: 325px;
     z-index: 10;
     background: url(../images/clearButton.png) no-repeat 0 0;
     height: 42px;

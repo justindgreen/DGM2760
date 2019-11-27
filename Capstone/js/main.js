@@ -13,9 +13,9 @@ let backgroundProficiencies = {}
 
 //JSON URLs
 const urls = [
-	'../capstone/json/01 races.json',
-	'../capstone/json/02 classes.json',
-	'../capstone/json/03 backgrounds.json'
+	'http://127.0.0.1:5500/Capstone/json/01 races.json',
+	'http://127.0.0.1:5500/Capstone/json/02 classes.json',
+	'http://127.0.0.1:5500/Capstone/json/03 backgrounds.json'
 ]
 
 //Fetch function
@@ -42,7 +42,7 @@ function checkStatus(response) {
 	if (response.ok) {
 		return Promise.resolve(response)
 	} else {
-		return Promise.reject(new Error(response.statusText))
+		return Promise.rteject(new Error(response.statusText))
 	}
 }
 
@@ -74,8 +74,8 @@ const characterSheet = {
 			let left = style.getPropertyValue("left")
 			let top = style.getPropertyValue("top")
 			let background = style.getPropertyValue("background")
-			element.style.left = `${parseInt(left) - parseInt(left)}px`
-			element.style.top = `${parseInt(top) - parseInt(top)}px`
+			element.style.left = `${parseInt(left) - 311.5}px`
+			element.style.top = `${parseInt(top) - 210}px`
 			element.style.background = "none"
 		})
 
@@ -480,18 +480,6 @@ document.querySelector('#level').addEventListener('change', () => {
 		skill.dispatchEvent(new Event('change'))
 	})
 })
-
-function positionElements() {
-	document.querySelectorAll('*').forEach(element => {
-		let main = document.querySelector('main')
-		let mainLeft = main.getBoundingClientRect();
-		let style = getComputedStyle(element)
-		let left = style.getPropertyValue("left")
-		element.style.left = `${parseInt(left) - parseInt(mainLeft.left)}px`
-		})
-}
-
-positionElements()
 
 //call json data
 getSRDData()
