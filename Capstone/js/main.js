@@ -13,9 +13,9 @@ let backgroundProficiencies = {}
 
 //JSON URLs
 const urls = [
-	'http://127.0.0.1:5500/Capstone/json/01 races.json',
-	'http://127.0.0.1:5500/Capstone/json/02 classes.json',
-	'http://127.0.0.1:5500/Capstone/json/03 backgrounds.json'
+	'../Capstone/json/01 races.json',
+	'../Capstone/json/02 classes.json',
+	'../Capstone/json/03 backgrounds.json'
 ]
 
 //Fetch function
@@ -42,7 +42,7 @@ function checkStatus(response) {
 	if (response.ok) {
 		return Promise.resolve(response)
 	} else {
-		return Promise.rteject(new Error(response.statusText))
+		return Promise.reject(new Error(response.statusText))
 	}
 }
 
