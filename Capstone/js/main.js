@@ -481,5 +481,17 @@ document.querySelector('#level').addEventListener('change', () => {
 	})
 })
 
+function positionElements() {
+	document.querySelectorAll('*').forEach(element => {
+		let main = document.querySelector('main')
+		let mainLeft = main.getBoundingClientRect();
+		let style = getComputedStyle(element)
+		let left = style.getPropertyValue("left")
+		element.style.left = `${parseInt(left) - parseInt(mainLeft.left)}px`
+		})
+}
+
+positionElements()
+
 //call json data
 getSRDData()
