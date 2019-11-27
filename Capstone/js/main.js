@@ -74,8 +74,8 @@ const characterSheet = {
 			let left = style.getPropertyValue("left")
 			let top = style.getPropertyValue("top")
 			let background = style.getPropertyValue("background")
-			element.style.left = `${parseInt(left) - 311.5}px`
-			element.style.top = `${parseInt(top) - 210}px`
+			element.style.left = `${parseInt(left) - parseInt(left)}px`
+			element.style.top = `${parseInt(top) - parseInt(top)}px`
 			element.style.background = "none"
 		})
 
