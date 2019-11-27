@@ -1,0 +1,103 @@
+.abilityScores {
+    position: absolute;
+    height: 45px;
+    width: 55px;
+    font-size: 24px;
+    text-align-last: center;
+}
+
+.abilityMods {
+    position: absolute;
+    width: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#Strength {
+    top: 460px;
+    left: 375px;
+
+}
+
+#StrengthMod {
+    top: 512px;
+    left: 386px;
+}
+
+#Dexterity {
+    top: 573px;
+    left: 375px;
+}
+
+#DexterityMod {
+    top: 625px;
+    left: 386px;
+}
+
+#Constitution {
+    top: 685px;
+    left: 375px;
+}
+
+#ConstitutionMod {
+    top: 737px;
+    left: 386px;
+}
+
+#Intelligence {
+    top: 798px;
+    left: 375px;
+}
+
+#IntelligenceMod {
+    top: 850px;
+    left: 386px;
+}
+
+#Wisdom {
+    top: 910px;
+    left: 375px;
+}
+
+#WisdomMod {
+    top: 962px;
+    left: 386px;
+}
+
+#Charisma {
+    top: 1021px;
+    left: 375px;
+}
+
+#CharismaMod {
+    top: 1073px;
+    left: 386px;
+}
+
+.racials {
+    position: absolute;
+    top: 400px;
+    left: 145px;
+    width: 157px;
+    height: 105px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#racialIncreases {
+    margin-top: -20px;
+    height: 45px;
+    width: 145px;
+    padding: 5px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#racialIncreasesHeader {
+    margin-top: 0px;
+    width: 180px;
+    padding: 5px;
+}

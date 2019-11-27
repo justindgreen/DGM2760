@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>2760 Capstone</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/skills.css" rel="stylesheet" type="text/css" />
+	<link href="css/characterBasics.css" rel="stylesheet" type="text/css" />
+	<link href="css/abilities.css" rel="stylesheet" type="text/css" />
+	<link href="css/equipment.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Norican&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="hideMe">
+		<img src="images/nav-top.png">
+		<img src="images/nav-bg.png">
+		<img src="images/banner-top.png" id="headerBottom">
+		<h1>Character Sheet Maker</h1>
+	</header>
+	<main>
+			<button id="printButton" class="hideMe"></button>
+		<form>
+			<button id="clearButton" class="hideMe" type="reset"></button>
+			<img src='images/SheetFront.png' id='sheet'>
+			<input type="text" id="name" class="basics" maxlength="18">
+			<select id="Classes" class="basics loadData">
+				<option value=""></option>
+			</select>
+			<select id="level" class="basics">
+				<option value=""></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<select id="Backgrounds" class="basics loadData">
+				<option value=""></option>
+			</select>
+			<input type="text" id="playerName" class="basics">
+			<select id="Races" class="basics loadData">
+				<option value=""></option>
+			</select>
+			<select id="SubRace" class="basics loadData">
+				<option value="" selected></option>
+			</select>
+			<select id="alignmentLC" class="basics">
+				<option value=""></option>
+				<option value="Lawful">Lawful</option>
+				<option value="Neutral">Neutral</option>
+				<option value="Chaotic">Chaotic</option>
+			</select>
+			<select id="alignmentGE" class="basics">
+				<option value=""></option>
+				<option value="Good">Good</option>
+				<option value="Neutral">Neutral</option>
+				<option value="Evil">Evil</option>
+			</select>
+			<input type="text" id="xp" class="basics">
+			<textarea id="proficiencies" maxlength="432"></textarea>
+			<textarea id="traits"></textarea>
+			<textarea id="AC" maxlength="2"></textarea>
+			<div id="Initiative"></div>
+			<div id="speed"></div>
+			<div id="proficiencyBonus"></div>
+			<textarea id="currentHP"></textarea>
+			<textarea id="HPMax"></textarea>
+			<div id="HitDiceNumber"></div>
+			<div id="HitDice"></div>
+			<textarea id="weaponName1" class="equipment"></textarea>
+			<textarea id="weaponAB1" class="equipment"></textarea>
+			<textarea id="weaponDamage1" class="equipment"></textarea>
+			<textarea id="weaponName2" class="equipment"></textarea>
+			<textarea id="weaponAB2" class="equipment"></textarea>
+			<textarea id="weaponDamage2" class="equipment"></textarea>
+			<textarea id="weaponName3" class="equipment"></textarea>
+			<textarea id="weaponAB3" class="equipment"></textarea>
+			<textarea id="weaponDamage3" class="equipment"></textarea>
+			<textarea id="additionalWeapon" maxlength="456" class="equipment"></textarea>
+			<textarea id="cp" maxlength="3" class="equipment"></textarea>
+			<textarea id="sp" maxlength="3" class="equipment"></textarea>
+			<textarea id="ep" maxlength="3" class="equipment"></textarea>
+			<textarea id="gp" maxlength="3" class="equipment"></textarea>
+			<textarea id="pp" maxlength="3" class="equipment"></textarea>
+			<textarea id="equipment" maxlength="442" class="equipment"></textarea>
+			<select id="PersonalityTrait">
+				<option value=""></option>
+			</select>
+			<select id="Ideal">
+				<option value=""></option>
+			</select>
+			<select id="Bond">
+				<option value=""></option>
+			</select>
+			<select id="Flaw">
+				<option value=""></option>
+			</select>
+			<select id="Strength" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="StrengthMod" class="abilityMods"></div>
+			<select id="Dexterity" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="DexterityMod" class="abilityMods"></div>
+			<select id="Constitution" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="ConstitutionMod" class="abilityMods"></div>
+			<select id="Intelligence" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="IntelligenceMod" class="abilityMods"></div>
+			<select id="Wisdom" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="WisdomMod" class="abilityMods"></div>
+			<select id="Charisma" class="abilityScores">
+				<option value="" selected hidden disabled></option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</select>
+			<div id="CharismaMod" class="abilityMods"></div>
+			<div class="racials">
+				<h2 id="racialIncreasesHeader" class="hideMe">Racial Ability Score Increase</h2>
+				<div id="racialIncreases" class="hideMe"></div>
+			</div>
+			<input type="checkbox" id="StrengthST" class="skills SavingThrows" mod="Strength">
+			<label for="StrengthST"></label>
+			<input type="checkbox" id="DexterityST" class="skills SavingThrows" mod="Dexterity">
+			<label for="DexterityST"></label>
+			<input type="checkbox" id="ConstitutionST" class="skills SavingThrows" mod="Constitution">
+			<label for="ConstitutionST"></label>
+			<input type="checkbox" id="IntelligenceST" class="skills SavingThrows" mod="Intelligence">
+			<label for="IntelligenceST"></label>
+			<input type="checkbox" id="WisdomST" class="skills SavingThrows" mod="Wisdom">
+			<label for="WisdomST"></label>
+			<input type="checkbox" id="CharismaST" class="skills SavingThrows" mod="Charisma">
+			<label for="CharismaST"></label>
+			<input type="checkbox" id="Acrobatics" class="skills" mod="Dexterity">
+			<label for="Acrobatics"></label>
+			<input type="checkbox" id="Animal Handling" class="skills" mod="Wisdom">
+			<label for="Animal Handling"></label>
+			<input type="checkbox" id="Arcana" class="skills" mod="Intelligence">
+			<label for="Arcana"></label>
+			<input type="checkbox" id="Athletics" class="skills" mod="Strength">
+			<label for="Athletics"></label>
+			<input type="checkbox" id="Deception" class="skills" mod="Charisma">
+			<label for="Deception"></label>
+			<input type="checkbox" id="History" class="skills" mod="Intelligence">
+			<label for="History"></label>
+			<input type="checkbox" id="Insight" class="skills" mod="Wisdom">
+			<label for="Insight"></label>
+			<input type="checkbox" id="Intimidation" class="skills" mod="Charisma">
+			<label for="Intimidation"></label>
+			<input type="checkbox" id="Investigation" class="skills" mod="Intelligence">
+			<label for="Investigation"></label>
+			<input type="checkbox" id="Medicine" class="skills" mod="Wisdom">
+			<label for="Medicine"></label>
+			<input type="checkbox" id="Nature" class="skills" mod="Intelligence">
+			<label for="Nature"></label>
+			<input type="checkbox" id="Perception" class="skills" mod="Wisdom">
+			<label for="Perception"></label>
+			<input type="checkbox" id="Performance" class="skills" mod="Charisma">
+			<label for="Performance"></label>
+			<input type="checkbox" id="Persuassion" class="skills" mod="Charisma">
+			<label for="Persuassion"></label>
+			<input type="checkbox" id="Religion" class="skills" mod="Intelligence">
+			<label for="Religion"></label>
+			<input type="checkbox" id="Sleight Of Hand" class="skills" mod="Dexterity">
+			<label for="Sleight Of Hand"></label>
+			<input type="checkbox" id="Stealth" class="skills" mod="Dexterity">
+			<label for="Stealth"></label>
+			<input type="checkbox" id="Survival" class="skills" mod="Wisdom">
+			<label for="Survival"></label>
+			<div id="passivePerception"></div>
+		</form>
+	</main>
+	<footer class="hideMe">
+			<p>Assignment for DGM2760 by Justin Green</p>
+		<img src="images/footer-bottom.png">
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

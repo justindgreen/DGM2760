@@ -1,0 +1,367 @@
+@media print {
+    input[type="checkbox"] {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+}
+
+.skills {
+    width: .8em;
+    height: .8em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid slategray;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.skills:checked {
+    background-color: #333;
+}
+
+#StrengthST {
+    position: absolute;
+    top: 543px;
+    left: 466px;
+}
+
+#StrengthST+label {
+    position: absolute;
+    top: 543px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#DexterityST {
+    position: absolute;
+    top: 564px;
+    left: 466px;
+}
+
+#DexterityST+label {
+    position: absolute;
+    top: 564px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#ConstitutionST {
+    position: absolute;
+    top: 585px;
+    left: 466px;
+}
+
+#ConstitutionST+label {
+    position: absolute;
+    top: 585px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#IntelligenceST {
+    position: absolute;
+    top: 606px;
+    left: 466px;
+}
+
+#IntelligenceST+label {
+    position: absolute;
+    top: 606px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#WisdomST {
+    position: absolute;
+    top: 627px;
+    left: 466px;
+}
+
+#WisdomST+label {
+    position: absolute;
+    top: 627px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#CharismaST {
+    position: absolute;
+    top: 648px;
+    left: 466px;
+}
+
+#CharismaST+label {
+    position: absolute;
+    top: 648px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Acrobatics {
+    position: absolute;
+    top: 723px;
+    left: 466px;
+}
+
+#Acrobatics+label {
+    position: absolute;
+    top: 723px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+[id='Animal Handling'] {
+    position: absolute;
+    top: 745px;
+    left: 466px;
+}
+
+[id='Animal Handling']+label {
+    position: absolute;
+    top: 745px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Arcana {
+    position: absolute;
+    top: 766px;
+    left: 466px;
+}
+
+#Arcana+label {
+    position: absolute;
+    top: 766px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Athletics {
+    position: absolute;
+    top: 787px;
+    left: 466px;
+}
+
+#Athletics+label {
+    position: absolute;
+    top: 787px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Deception {
+    position: absolute;
+    top: 809px;
+    left: 466px;
+}
+
+#Deception+label {
+    position: absolute;
+    top: 809px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#History {
+    position: absolute;
+    top: 830px;
+    left: 466px;
+}
+
+#History+label {
+    position: absolute;
+    top: 830px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Insight {
+    position: absolute;
+    top: 850px;
+    left: 466px;
+}
+
+#Insight+label {
+    position: absolute;
+    top: 850px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Intimidation {
+    position: absolute;
+    top: 872px;
+    left: 466px;
+}
+
+#Intimidation+label {
+    position: absolute;
+    top: 872px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Investigation {
+    position: absolute;
+    top: 893px;
+    left: 466px;
+}
+
+#Investigation+label {
+    position: absolute;
+    top: 893px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Medicine {
+    position: absolute;
+    top: 914px;
+    left: 466px;
+}
+
+#Medicine+label {
+    position: absolute;
+    top: 914px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Nature {
+    position: absolute;
+    top: 935px;
+    left: 466px;
+}
+
+#Nature+label {
+    position: absolute;
+    top: 935px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Perception {
+    position: absolute;
+    top: 956px;
+    left: 466px;
+}
+
+#Perception+label {
+    position: absolute;
+    top: 956px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Performance {
+    position: absolute;
+    top: 977px;
+    left: 466px;
+}
+
+#Performance+label {
+    position: absolute;
+    top: 977px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Persuassion {
+    position: absolute;
+    top: 998px;
+    left: 466px;
+}
+
+#Persuassion+label {
+    position: absolute;
+    top: 998px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Religion {
+    position: absolute;
+    top: 1020px;
+    left: 466px;
+}
+
+#Religion+label {
+    position: absolute;
+    top: 1020px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+[id='Sleight Of Hand'] {
+    position: absolute;
+    top: 1042px;
+    left: 466px;
+}
+
+[id='Sleight Of Hand']+label {
+    position: absolute;
+    top: 1042px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Stealth {
+    position: absolute;
+    top: 1063px;
+    left: 466px;
+}
+
+#Stealth+label {
+    position: absolute;
+    top: 1063px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#Survival {
+    position: absolute;
+    top: 1084px;
+    left: 466px;
+}
+
+#Survival+label {
+    position: absolute;
+    top: 1084px;
+    left: 490px;
+    width: 20px;
+    text-align: center;
+}
+
+#passivePerception {
+    position: absolute;
+    top: 1145px;
+    left: 358px;
+    font-size: 24px;
+    width: 41px;
+    text-align: center;
+}

@@ -1,0 +1,150 @@
+.basics {
+    position: absolute;
+    font-size: 16px;
+}
+
+#name {
+    top: 308px;
+    left: 380px;
+    height: 35px;
+    width: 330px;
+    background: none;
+    border: none;
+    font-size: 32px;
+}
+
+#Classes {
+    top: 295px;
+    left: 735px;
+    width: 130px;
+}
+
+#level {
+    top: 295px;
+    left: 864px;
+    width: 45px;
+}
+
+#Backgrounds {
+    top: 295px;
+    left: 915px;
+    width: 145px;
+}
+
+#playerName {
+    top: 295px;
+    left: 1065px;
+    width: 140px;
+}
+
+#Races {
+    top: 335px;
+    left: 735px;
+    width: 87.5px;
+}
+
+#SubRace {
+    top: 335px;
+    left: 821.5px;
+    width: 87.5px;
+}
+
+#alignmentLC {
+    top: 335px;
+    left: 915px;
+    width: 72.5px;
+}
+
+#alignmentGE {
+    top: 335px;
+    left: 987px;
+    width: 72.5px;
+}
+
+#xp {
+    top: 335px;
+    left: 1065px;
+    width: 140px;
+}
+
+#speed {
+    font-size: 32px;
+    position: absolute;
+    top: 450px;
+    left: 863px;
+}
+
+#proficiencyBonus {
+    position: absolute;
+    top: 485px;
+    left: 468px;
+    font-size: 24px;
+}
+
+#AC {
+    resize: none;
+    background: none;
+    font-size: 32px;
+    position: absolute;
+    top: 435px;
+    left: 672px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+
+#Initiative {
+    font-size: 32px;
+    position: absolute;
+    top: 450px;
+    left: 753px;
+    width: 69px;
+    text-align: center;
+}
+
+#currentHP {
+    resize: none;
+    background: none;
+    font-size: 12px;
+    position: absolute;
+    top: 524px;
+    left: 768px;
+    width: 130px;
+    height: 15px;
+    text-align: center;
+}
+
+#HPMax {
+    resize: none;
+    background: none;
+    font-size: 32px;
+    position: absolute;
+    top: 548px;
+    left: 668px;
+    width: 243px;
+    height: 50px;
+    text-align: center;
+}
+
+#HitDiceNumber {
+    background: none;
+    font-size: 16px;
+    position: absolute;
+    top: 716px;
+    left: 695px;
+    width: 73px;
+    height: 15px;
+    text-align: center;
+}
+
+#HitDice {
+    background: none;
+    font-size: 32px;
+    position: absolute;
+    top: 736px;
+    left: 670px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+}

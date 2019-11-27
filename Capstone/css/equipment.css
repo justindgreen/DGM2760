@@ -1,0 +1,127 @@
+.equipment {
+    resize: none;
+    background: none;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+}
+
+#weaponName1 {
+	top: 836px;
+	left: 663px;
+	width: 93px;
+	height: 18px;
+}
+
+#weaponName2 {
+	top: 866px;
+	left: 663px;
+	width: 93px;
+	height: 18px;
+}
+
+#weaponName3 {
+	top: 899px;
+	left: 663px;
+	width: 93px;
+	height: 18px;
+}
+
+#weaponAB1 {
+	top: 836px;
+	left: 770px;
+	width: 42px;
+	height: 18px;
+}
+
+#weaponAB2 {
+	top: 866px;
+	left: 770px;
+	width: 42px;
+	height: 18px;
+}
+
+#weaponAB3 {
+	top: 899px;
+	left: 770px;
+	width: 42px;
+	height: 18px;
+}
+
+#weaponDamage1 {
+	top: 836px;
+	left: 825px;
+	width: 92px;
+	height: 18px;
+}
+
+#weaponDamage2 {
+	top: 866px;
+	left: 825px;
+	width: 92px;
+	height: 18px;
+}
+
+#weaponDamage3 {
+	top: 899px;
+	left: 825px;
+	width: 92px;
+	height: 18px;
+}
+
+#additionalWeapon {
+	top: 929px;
+	left: 663px;
+	width: 254px;
+    height: 178px;
+    text-align: left;
+}
+
+#cp {
+	font-size: 18px;
+	top: 1157px;
+	left: 673px;
+	width: 37px;
+	height: 26px;
+}
+
+#sp {
+	font-size: 18px;
+	top: 1198px;
+	left: 673px;
+	width: 37px;
+	height: 26px;
+}
+
+#ep {
+	font-size: 18px;
+	top: 1239px;
+	left: 673px;
+	width: 37px;
+	height: 26px;
+}
+
+#gp {
+	font-size: 18px;
+	top: 1279px;
+	left: 673px;
+	width: 37px;
+	height: 26px;
+}
+
+#pp {
+	font-size: 18px;
+	top: 1319px;
+	left: 673px;
+	width: 37px;
+	height: 26px;
+}
+
+#equipment {
+	font-size: 13px;
+	top: 1145px;
+	left: 730px;
+	width: 190px;
+    height: 256px;
+    text-align: left;
+}

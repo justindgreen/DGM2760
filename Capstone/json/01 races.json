@@ -1,0 +1,204 @@
+{
+    "Races": [
+        {
+            "Name": "Dwarf",
+            "AbilityScoreIncrease": "Constitution +2\n",
+            "Speed": "25",
+            "Traits": [
+                "Darkvision - 60 feet\n\nDwarven Resilience - You have advantage on saving throws against poison, and you have resistance against poison damage\n\nStonecunning - Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus\n\n"
+            ],
+            "Proficiencies": [
+                "Dwarven Combat Training - battleaxe, handaxe, light hammer, and warhammer\n\nTool Proficiency - Choose one: smith’s tools, brewer’s supplies, or mason’s tools\n\nLanguages - Common, Dwarvish\n\n"
+            ],
+            "SubRace": [
+                {
+                    "Name": "Hill",
+                    "AbilityScoreIncrease": "Wisdom +1\n",
+                    "Traits": [
+                        "Dwarven Toughness - Your hit point maximum increases by 1, and it increases by 1 every time you gain a level\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Elf",
+            "AbilityScoreIncrease": "Dexterity +2\n",
+            "Speed": "30",
+            "Traits": [
+                "Darkvision - 60 feet\n\nKeen Senses - You have proficiency in the Perception skill\n\nFey Ancestry - You have advantage on saving throws against being charmed, and magic can’t put you to sleep\n\nTrance - Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day.\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Elvish\n\n"
+            ],
+            "SubRace": [
+                {
+                    "Name": "High Elf",
+                    "AbilityScoreIncrease": "Intelligence +1\n",
+                    "Proficiencies": [
+                        "Elf Weapon Training - longsword, shortsword, shortbow, and longbow\n\nExtra Language - You can speak, read, and write one extra language of your choice.\n\n"
+                    ],
+                    "Traits": [
+                        "Cantrip - You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Halfling",
+            "AbilityScoreIncrease": "Dexterity +2\n",
+            "Speed": "25",
+            "Traits": [
+                "Lucky - When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll\n\nBrave - You have advantage on saving throws against being frightened\n\nHalfling Nimbleness - You can move through the space of any creature that is of a size larger than yours\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Halfling\n\n"
+            ],
+            "SubRace": [
+                {
+                    "Name": "Lightfoot",
+                    "AbilityScoreIncrease": "Charisma +1\n",
+                    "Traits": [
+                        "Naturally Stealthy - You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Human",
+            "AbilityScoreIncrease": "All +1\n",
+            "Speed": "30",
+            "Traits": [
+                ""
+            ],
+            "Proficiencies": [
+                "Languages - Common and one extra language of your choice.\n\n"
+            ]
+        },
+        {
+            "Name": "Dragonborn",
+            "AbilityScoreIncrease": "Strength +2\nCharisma +1\n",
+            "Speed": "30",
+            "Traits": [
+                ""
+            ],
+            "Proficiencies": [
+                "Languages - Common, Draconic\n\n"
+            ],
+            "SubRace": [
+                {
+                    "Name": "Black",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 30 ft. line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Acid damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Blue",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 30 ft. line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Lightning damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Brass",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 30 ft. line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Fire damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Bronze",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 30 ft. line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Lightning damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Copper",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 30 ft. line must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Acid damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Gold",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 15 ft. cone must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Fire damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Green",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 15 ft. cone must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Poison damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Poison damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Red",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 15 ft. cone must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Fire damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "Silver",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 15 ft. cone must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Cold damage.\n\n"
+                    ]
+                },
+                {
+                    "Name": "White",
+                    "Traits": [
+                        "Breath Weapon - You can use your action to exhale destructive energy.\n\nWhen you use your breath weapon, each creature in a 15 ft. cone must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 Cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.\n\nDamage Resistance - You have resistance to Cold damage.\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Gnome",
+            "AbilityScoreIncrease": "Intelligence +2.\n",
+            "Speed": "25",
+            "Traits": [
+                "Darkvision - 60 feet.\n\nGnome Cunning - You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Gnomish\n\n"
+            ],
+            "SubRace": [
+                {
+                    "Name": "Rock Gnome",
+                    "AbilityScoreIncrease": "Constitution +1\n",
+                    "Traits": [
+                        "Artificer’s Lore. - Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.\n\nTinker - You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\n\nWhen you create a device, choose one of the following options:\n\nClockwork Toy: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n\nFire Starter: The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n\nMusic Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Half-Elf",
+            "AbilityScoreIncrease": "Charisma +2\nTwo of your choice +1\n",
+            "Speed": "30",
+            "Traits": [
+                "Darkvision - 60 feet.\n\nFey Ancestry - You have advantage on saving throws against being charmed, and magic can’t put you to sleep.\n\nSkill Versatility - You gain proficiency in two skills of your choice.\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Elvish, and one of your choice.\n\n"
+            ]
+        },
+        {
+            "Name": "Half-Orc",
+            "AbilityScoreIncrease": "Strength +2\nConstitution +1\n",
+            "Speed": "30",
+            "Traits": [
+                "Darkvision - 60 feet.\n\nMenacing -  You gain proficiency in the Intimidation skill.\n\nRelentless Endurance - When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest\n\nSavage Attacks - When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Orc\n\n"
+            ]
+        },
+        {
+            "Name": "Tiefling",
+            "AbilityScoreIncrease": "Intelligence +1\nCharisma +2\n",
+            "Speed": "30",
+            "Traits": [
+                "Darkvision - 60 feet.\n\nHellish Resistance - You have resistance to fire damage\n\nInfernal Legacy - You know the *thaumaturgy* cantrip. When you reach 3rd level, you can cast the *hellish rebuke* spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the *darkness* spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.\n\n"
+            ],
+            "Proficiencies": [
+                "Languages - Common, Infernal\n\n"
+            ]
+        }
+    ]
+}

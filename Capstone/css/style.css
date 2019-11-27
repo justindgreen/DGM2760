@@ -1,0 +1,199 @@
+* {
+    font-family: monospace
+}
+
+body {
+    background: url(../images/clouds-2.png) no-repeat;
+    background-size: 102%;
+    overflow-x: hidden;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* wrap text in compatible browsers */
+    -moz-white-space: pre-wrap;
+    -o-white-space: pre-wrap;
+    white-space: pre-wrap;
+    /* hide text that can't wrap with an ellipsis */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: none;
+}
+
+option {
+    max-width: 100%;
+    /* wrap text in compatible browsers */
+    -moz-white-space: pre-wrap;
+    -o-white-space: pre-wrap;
+    white-space: pre-wrap;
+    /* hide text that can't wrap with an ellipsis */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+header {
+    display: block;
+    position:absolute;
+    top: 0px;
+}
+
+header img {
+    margin: -2px;
+    padding: 0px;
+    position:relative;
+    left: 269px;
+    width: 1032px;
+    z-index: 1;
+}
+
+header h1 {
+    position: Absolute;
+    z-index: 2;
+    top: 80px;
+    width: 100%;
+    text-align:center;
+    font-size: 64px;
+    font-family: 'Norican', cursive;
+
+
+}
+
+#headerBottom {
+    margin-top: -21px
+}
+
+main {
+    width: 960px;
+    height: 1250px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom:0px;
+    background-size: 100%;
+    background: url(../images/main-bg.png);
+    background-repeat: repeat;
+    z-index: 10;
+}
+
+#printButton {
+    position: absolute;
+    top: 148px;
+    left: 1110px;
+    z-index: 10;
+    background: url(../images/printButton.png) no-repeat 0 0;
+    height: 42px;
+    width: 147px;
+    border: none;
+}
+
+#printButton:hover {
+    background-position: 0 -42px;
+}
+
+#printButton:active {
+    background-position: 0 -84px;
+}
+
+#clearButton {
+    position: absolute;
+    top: 148px;
+    left: 325px;
+    z-index: 10;
+    background: url(../images/clearButton.png) no-repeat 0 0;
+    height: 42px;
+    width: 147px;
+    border: none;
+}
+
+#clearButton:hover {
+    background-position: 0 -42px;
+}
+
+#clearButton:active {
+    background-position: 0 -84px;
+}
+
+#sheet {
+    position: absolute;
+    top: 220px;
+    left: 311.5px;
+    width: 960px;
+    height: 1242px;
+}
+
+#proficiencies {
+    resize: none;
+    background: none;
+    position: absolute;
+    top: 1200px;
+    left: 360px;
+    height: 218px;
+    width: 265px;
+    border: none;
+}
+
+#traits {
+    resize: none;
+    background: none;
+    position: absolute;
+    top: 822px;
+    left: 950px;
+    height: 580px;
+    width: 272px;
+    border: none;
+}
+
+#PersonalityTrait {
+    font-size: 13px;
+    position: absolute;
+    top: 435px;
+    left: 963px;
+    width: 252px;
+    height: 95px;
+}
+
+#Ideal {
+    font-size: 13px;
+    position: absolute;
+    top: 544px;
+    left: 963px;
+    width: 252px;
+    height: 74px;
+}
+
+#Bond {
+    font-size: 13px;
+    position: absolute;
+    top: 631px;
+    left: 963px;
+    width: 252px;
+    height: 74px;
+}
+
+#Flaw {
+    font-size: 13px;
+    position: absolute;
+    top: 717px;
+    left: 963px;
+    width: 252px;
+    height: 74px;
+}
+
+footer {
+    margin: -5px auto 0px auto;
+    width: 960px;
+    height: 110px;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    max-width: 960px;
+    margin: 0 auto;
+}
