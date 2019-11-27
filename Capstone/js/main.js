@@ -42,7 +42,7 @@ function checkStatus(response) {
 	if (response.ok) {
 		return Promise.resolve(response)
 	} else {
-		return Promise.rteject(new Error(response.statusText))
+		return Promise.reject(new Error(response.statusText))
 	}
 }
 
