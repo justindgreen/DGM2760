@@ -13,9 +13,9 @@ let backgroundProficiencies = {}
 
 //JSON URLs
 const urls = [
-	'../json/01 races.json',
-	'../json/02 classes.json',
-	'../json/03 backgrounds.json'
+	'../capstone/json/01 races.json',
+	'../capstone/json/02 classes.json',
+	'../capstone/json/03 backgrounds.json'
 ]
 
 //Fetch function
